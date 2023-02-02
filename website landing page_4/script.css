@@ -1,0 +1,45 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#maindiv{
+    background-color: red;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#div-one{
+    background-color: blue;
+    height: 25%;
+    width: 100%;
+}
+#div-two{
+    background-color: green;
+    height: 25%;
+    width: 100%;
+}
+#div-three{
+    background-color: yellow;
+    height: 25%;
+    width: 100%;
+}
+#div-four{
+    background-color: pink;
+    height: 25%;
+    width: 100%;
+}
